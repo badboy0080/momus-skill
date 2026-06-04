@@ -1,0 +1,4 @@
+interface:
+  display_name: "Momus Skill"
+  short_description: "Selectively roasts and rewrites weak IDE prompts."
+  default_prompt: "Use $momus-skill to review my request, roast weak prompt structure, and rewrite it into an executable IDE-agent prompt."
