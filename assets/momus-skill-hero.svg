@@ -1,0 +1,73 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Momus Skill README hero</title>
+  <desc id="desc">A professional developer-tool banner for Momus Skill, an AI prompt-input reviewer.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A0D14"/>
+      <stop offset="0.48" stop-color="#121826"/>
+      <stop offset="1" stop-color="#111315"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="160" y1="120" x2="1360" y2="780" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#151B29"/>
+      <stop offset="1" stop-color="#0E131D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="340" y1="238" x2="1260" y2="670" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F97316"/>
+      <stop offset="0.48" stop-color="#FACC15"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <filter id="softShadow" x="70" y="50" width="1460" height="820" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="28" stdDeviation="34" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+
+  <g filter="url(#softShadow)">
+    <rect x="140" y="96" width="1320" height="708" rx="28" fill="url(#panel)" stroke="#2C3446" stroke-width="2"/>
+    <rect x="140" y="96" width="1320" height="64" rx="28" fill="#111827"/>
+    <path d="M140 132C140 112.118 156.118 96 176 96H1424C1443.88 96 1460 112.118 1460 132V160H140V132Z" fill="#141B29"/>
+    <circle cx="190" cy="128" r="10" fill="#F97316"/>
+    <circle cx="222" cy="128" r="10" fill="#FACC15"/>
+    <circle cx="254" cy="128" r="10" fill="#22C55E"/>
+  </g>
+
+  <g opacity="0.98">
+    <rect x="214" y="220" width="472" height="412" rx="18" fill="#0C111B" stroke="#2B3447" stroke-width="2"/>
+    <rect x="246" y="254" width="190" height="18" rx="9" fill="#E5E7EB" fill-opacity="0.92"/>
+    <rect x="246" y="304" width="352" height="14" rx="7" fill="#667085"/>
+    <rect x="246" y="334" width="300" height="14" rx="7" fill="#667085"/>
+    <rect x="246" y="364" width="378" height="14" rx="7" fill="#667085"/>
+    <rect x="246" y="430" width="392" height="96" rx="14" fill="#151C2B" stroke="#334155"/>
+    <rect x="270" y="458" width="252" height="12" rx="6" fill="#F97316"/>
+    <rect x="270" y="488" width="318" height="12" rx="6" fill="#94A3B8"/>
+    <rect x="270" y="518" width="186" height="12" rx="6" fill="#94A3B8"/>
+    <path d="M631 573L655 597L631 621" stroke="#22D3EE" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g>
+    <path d="M714 440C714 349.425 787.425 276 878 276H1110C1200.57 276 1274 349.425 1274 440C1274 530.575 1200.57 604 1110 604H878C787.425 604 714 530.575 714 440Z" fill="#101722" stroke="url(#accent)" stroke-width="3"/>
+    <path d="M818 445C818 377.621 872.621 323 940 323H1048C1115.38 323 1170 377.621 1170 445C1170 512.379 1115.38 567 1048 567H940C872.621 567 818 512.379 818 445Z" fill="#0A0D14" stroke="#334155" stroke-width="2"/>
+    <circle cx="928" cy="434" r="24" fill="#FACC15"/>
+    <circle cx="1058" cy="434" r="24" fill="#22D3EE"/>
+    <path d="M927 503C963.5 531 1022.5 531 1059 503" stroke="#F97316" stroke-width="12" stroke-linecap="round"/>
+    <path d="M846 362L790 318" stroke="#22D3EE" stroke-width="10" stroke-linecap="round"/>
+    <path d="M1142 362L1198 318" stroke="#F97316" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <rect x="900" y="634" width="360" height="86" rx="16" fill="#151C2B" stroke="#2B3447"/>
+    <rect x="930" y="660" width="118" height="12" rx="6" fill="#22D3EE"/>
+    <rect x="930" y="690" width="250" height="12" rx="6" fill="#94A3B8"/>
+    <path d="M1230 650L1252 672L1230 694" stroke="#FACC15" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="214" y="726" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="72" font-weight="800" letter-spacing="0">Momus Skill</text>
+  <text x="218" y="770" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" font-weight="500" letter-spacing="0">Prompt review before execution. Less guesswork, sharper agent work.</text>
+  <rect x="214" y="186" width="170" height="34" rx="17" fill="#F97316" fill-opacity="0.16" stroke="#F97316" stroke-opacity="0.55"/>
+  <text x="238" y="209" fill="#FDBA74" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="0">CODING AGENT SKILL</text>
+</svg>
